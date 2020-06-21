@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+
+
+a:link {
+        color: white;
+        text-decoration:none
+        }
+
+a:visited {
+        color: white;
+        text-decoration:none
+        }
+
+a:hover {
+        color: white;
+        text-decoration-line: none;
+        }
+
+a:active {
+        color: white;
+        }
+
+
+
+
+
+body.first {
+           background-color: white;
+	       text-align: left;
+	       color: white;
+            font-family: Verdana;
+            padding: 20 100 50 50;
+    font-size:12px;
+    word-wrap:break-word;
+}
+body.second {
+           background-color: white;
+	       text-align: left;
+	       color: black;
+            font-family: Verdana;
+            padding: 20 20 20 20;
+    font-size:12px;
+    word-wrap:break-word;
+}
+body.third {
+           background-color: white;
+	       text-align: justify;
+	       color: black;
+            font-family: Tahoma;
+         font-size:30px;
+    word-wrap:break-word;
+    line-height: 36px
+}
+
+
+
+
+
+
+table.first {
+            border-collapse: collapse;
+            font-family: Verdana;
+            font-size: 12px;
+            background-color:white;
+    word-wrap:break-word;
+    color:white;
+    
+
+        }
+
+
+
+
+
+
+
+tr.first {
+    padding: 10px;
+        }
+
+
+
+
+
+
+
+td.first {
+        padding: 5 20 5 10;
+    text-align: right;
+    word-wrap:break-word;
+        }
+td.second {
+    padding: 40 20 5 10;
+    word-wrap:break-word;
+}
+td.third {
+    padding: 0 40 5 0;
+   
+}
+td.fourth {
+    padding: 10 10 0 10;
+   
+}
+td.fifth {
+    padding: 10 0 40 10;
+   
+}
+td.sixth {
+    padding: 10 0 0 10;
+   
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+#menu {
+    width: 0px auto;
+    margin: 0px auto;
+    background: white;
+    border: 0px solid #d8d8d8;
+    text-align: left;
+}
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
+
+.floating { 
+    background-color:transparent;
+    border:0px solid #000;
+    position: fixed; 
+    left: 0%; 
+    top: 0px; 
+    margin: 0px; 
+    text-align:center; 
+    width:auto; 
+    height: auto;
+    border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+} 
+
+.floating div:nth-child(1){ 
+    border:0px solid #000; 
+    border-radius: 0px; 
+
+}
+
+
+

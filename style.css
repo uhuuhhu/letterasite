@@ -167,16 +167,26 @@ td.eighth_three{
 }
 
 td.fifth_two {
-    padding: 6 0 6 0 ;
+    padding: 10 0 6 0 ;
     vertical-align: top;
+    font-size: 15px
     
 }
 
 
 td.fifth_three {
-    padding: 5 0 2 0 ;
+    padding: 7 0 2 0 ;
        line-height: 30px;
     vertical-align: top;
+    font-size:15px;
+    
+}
+
+td.fifth_fourth {
+    padding: 7 0 2 0 ;
+       line-height: 30px;
+    vertical-align: top;
+    font-size:20px;
     
 }
 

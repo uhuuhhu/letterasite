@@ -1,0 +1,429 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+
+a:link {
+        color: white;
+        text-decoration:none
+        }
+
+a:visited {
+        color: white;
+        text-decoration:none
+        }
+
+a:hover {
+        color: white;
+        text-decoration-line: none;
+        }
+
+a:active {
+        color: white;
+        }
+
+
+
+
+
+body.first {
+           background-color: white;
+	       text-align: left;
+	       color: white;
+            font-family: Verdana;
+            padding: 0 ;
+    font-size:20px;
+    word-wrap:break-word;
+    font-family: 'MuseoModerno', cursive;
+    margin: 0;
+}
+body.second {
+           background-color: white;
+	       text-align: left;
+	       color: black;
+            font-family: Verdana;
+            padding: 20 20 20 20;
+    font-size:20px;
+    word-wrap:break-word;
+}
+body.third {
+           background-color: white;
+	       text-align: justify;
+	       color: black;
+            font-family: Tahoma;
+         font-size:20px;
+    word-wrap:break-word;
+    line-height: 36px
+}
+
+
+
+
+
+
+table.first {
+            border-collapse: collapse;
+            font-family: Verdana;
+            font-size: 20px;
+            background-color:white;
+    word-wrap:break-word;
+    color:white;
+    
+
+        }
+
+
+
+
+
+
+
+tr.first {
+    padding: 10px;
+        }
+
+
+
+
+
+
+
+td.first {
+        padding: 5 20 5 10;
+    text-align: right;
+    word-wrap:break-word;
+        }
+td.second {
+    padding: 40 20 5 10;
+    word-wrap:break-word;
+}
+td.third {
+    padding: 0 40 5 0;
+   
+}
+td.fourth {
+    padding: 10 10 0 10;
+    font-size: 20;
+   
+}
+td.fifth {
+    padding: 2 0 2 0 ;
+       line-height: 30px;
+}
+td.sixth {
+    padding: 10 0 0 10;
+
+   
+}
+td.seventh {
+    padding: 7 0 6 0;
+
+   
+}
+td.eighth{
+    padding: 10 30 0 0;
+    text-align: right;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+    vertical-align: top
+
+    
+}
+td.nineth {
+    padding: 4 0 2 0 ;
+    vertical-align: middle;
+}
+
+td.tenth{
+    padding: 7 0 0 0;
+    text-align: left;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+    vertical-align: top;
+    line-height: 25px;
+
+    
+}
+td.eighth_two{
+    padding: 0 30 0 0;
+    text-align: right;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+    vertical-align: middle;
+    line-height: 30px;
+
+    
+}
+
+td.eighth_three{
+    padding: 21 30 0 0;
+    text-align: right;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+    vertical-align: top;
+    line-height: 0px;
+
+    
+}
+
+td.fifth_two {
+    padding: 6 0 6 0 ;
+    vertical-align: top;
+    
+}
+
+
+td.fifth_three {
+    padding: 5 0 2 0 ;
+       line-height: 30px;
+    vertical-align: top;
+    
+}
+
+
+td.blank{
+    width: 200px;
+}
+
+
+
+
+
+
+
+div.first {
+  border: 0px solid white;
+  padding: 0px; 
+  width: 100%;
+  resize: horizontal;
+  overflow: hidden;
+    color: white;
+    
+    
+}
+.wrap {
+    position: relative;
+    display: block;  
+    resize: horizontal;
+    
+    overflow: hidden;
+    
+}
+.wrap:after {
+    content:"";
+    border-top: 0px solid #eb9343;;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    -webkit-transform: rotate(-45deg);
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    right: -0px;
+    bottom: -0px;
+    pointer-events: none;
+    
+
+    
+}
+.pull-tab {
+    height: 0px;
+    width: 0px;
+    border-top: 20px solid #fff;;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    bottom: -5px;
+    right: -15px;
+    pointer-events: none;
+    z-index: 0;
+}
+        
+        
+        
+
+
+.hover-me a {
+    font-size: 20px;
+    background-color: #000;
+    color: white;
+    }
+        
+.hover-me a:hover {
+    font-size:0;
+    background-color: #000;
+    color: white;
+    }
+        
+.hover-me a:hover:before {
+    content: 'letterasite';
+    font-size:20px;
+    } 
+    
+    
+.hover-me-t a {
+    font-size: 20px;
+    background-color: #694c40;
+    color: #694c40;
+    }
+        
+.hover-me-t a:hover {
+    font-size:0;
+    background-color: #000;
+    color: #694c40;
+    }
+        
+.hover-me-t a:hover:before {
+    content: ' ';
+    font-size:20px;
+    }   
+
+
+
+
+
+div.change {
+    width: 100%;
+    height: auto;
+    animation-name: example;
+    animation-duration: 3s;
+    }
+
+@keyframes example {
+    0%   {width: 100%;}
+    10% {width:100%}
+    50%   {width: 30%;}
+    57% {width: 30%;}
+    100% {width: 100%;}
+    }
+
+
+
+
+
+
+
+/* UI Object 가로 */
+        .h_graph ul{
+            margin:0 0px 0 0px;
+            padding:0px 0 0 0;
+            border:0px solid #fff;
+            border-top:0;
+            border-right:0;
+            font-size:11px;
+            font-family:Tahoma, Geneva, sans-serif;
+            list-style:none;
+            
+        }
+        .h_graph li{
+            position:relative;
+            margin:-2px 0;
+            vertical-align:top;
+            white-space:nowrap
+        }
+        .h_graph .g_term{
+            position:absolute;
+            top:7;
+            left:0px;
+            width:0px;
+            font-weight:bold;
+            color:#fff;
+            line-height:18px;
+            text-align:left;
+            font-size:15px;
+            
+        }
+        .h_graph .g_bar{
+            display:inline-block;
+            position:relative;
+            left:0px;
+            height:25px;
+            border:0px solid black;
+            border-left:0;
+            
+        }
+        .h_graph .g_bar span.first{
+            position:absolute;
+            top:4;
+            right:-28px;
+            width:40px;
+            line-height:18px;
+            font-size: 12px;
+            text-align: right;
+                
+        }
+        .h_graph .g_bar span.second{
+            position:absolute;
+            top:4;
+            right:-79px;
+            width:40px;
+            line-height:18px;
+            font-size: 12px;
+            text-align: left;
+                
+        }
+        /* //UI Object */
+
+
+
+
+
+
+
+#menu {
+    width: 0px auto;
+    margin: 0px auto;
+    background: white;
+    border: 0px solid #d8d8d8;
+    text-align: left;
+}
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+span {
+    display:block;
+    width: auto;
+    padding: 0px 0px;
+    cursor: pointer;
+    
+    
+}
+.arrow_box {
+  display: none;
+  position:absolute;
+  width: auto;
+    top:18px;
+  padding: 0px;
+  left: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;  
+  border-radius: 0px;
+  background: #fff;
+  color: #fff;
+  font-size: 14px;
+    z-index:1;
+  
+}
+
+.arrow_box:after {
+  position: absolute;
+  
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: transparent;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+  
+}
+
+span:hover + p.arrow_box {
+  display: block;
+}
